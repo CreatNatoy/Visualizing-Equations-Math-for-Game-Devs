@@ -7,5 +7,5 @@
     <img src="https://img.shields.io/badge/License-None-success" alt="License">
 </p>
 
-##Chapter
-*Dot product
+## Chapters
+* Dot product
