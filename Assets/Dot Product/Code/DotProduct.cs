@@ -19,6 +19,7 @@ namespace Dot_Product.Code
         private float GetDotProduct() {
             Vector3 playerForward = _transformPlayer.forward.normalized;
             Vector3 directionToEnemy = (_transformEnemy.position - _transformPlayer.position).normalized;
+            // yes, i know about Vector3.Dot
             return (playerForward.x * directionToEnemy.x) + (playerForward.y * directionToEnemy.y) +
                    (playerForward.z * directionToEnemy.z);
         }

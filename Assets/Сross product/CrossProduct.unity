@@ -411,29 +411,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1590363588}
-  - component: {fileID: 1590363587}
+  - component: {fileID: 1590363589}
   m_Layer: 0
-  m_Name: DotProduct
+  m_Name: CrossProduct
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1590363587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590363586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8275bbf06e1d4d4caae847a74ba99f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _transformPlayer: {fileID: 656406907}
-  _transformEnemy: {fileID: 1170733830}
-  _transformCommunicate: {fileID: 1590363588}
 --- !u!4 &1590363588
 Transform:
   m_ObjectHideFlags: 0
@@ -449,6 +434,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1590363589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590363586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad1a9aa7e5b6be47af64c09bb67ec8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transformPlayer: {fileID: 656406907}
+  _transformEnemy: {fileID: 1170733830}
+  _transformCommunicate: {fileID: 1590363588}
 --- !u!1 &1948375921
 GameObject:
   m_ObjectHideFlags: 0
