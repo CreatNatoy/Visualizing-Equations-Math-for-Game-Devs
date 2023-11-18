@@ -14,6 +14,11 @@ namespace Сross_product
             string message = $"Cross Product: {crossProduct} "; 
             message += crossProduct.y > 0 ? " The enemy is in right of you." : "The enemy is in left of you.";
             Handles.Label(_transformCommunicate.position, message);
+            
+            //the vector is directionToEnemy
+            Debug.DrawLine(_transformPlayer.position, _transformEnemy.position, Color.green);
+            //the vector is CrossProduct
+            Debug.DrawLine(_transformPlayer.position, _transformPlayer.position + crossProduct * 5f, Color.blue);
         }
 
         private Vector3 GetCrossProduct() {
@@ -26,7 +31,6 @@ namespace Сross_product
             float crossZ = playerForward.x * directionToEnemy.y - playerForward.y * directionToEnemy.x;
             
             return new Vector3(crossX, crossY, crossZ);
-            
         }
     }
 }
