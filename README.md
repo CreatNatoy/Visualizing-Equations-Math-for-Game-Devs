@@ -10,6 +10,7 @@
 ## Chapters
 * Dot product
 * Cross product
+* Quaternion vs Euler angles (rotation to target)
 
 ## Dot product
 Dot product can be used to determine if there is an object in front of you or not. <br>
@@ -29,3 +30,8 @@ In this example, you can determine where the enemy is on the right or on the lef
 ` Bluee vector ` - represents the vector pointing the cross product. <br>
 
 ![Unity_QSkNv9cOwO](https://github.com/CreatNatoy/Visualizing-Equations-Math-for-Game-Devs/assets/76531899/eca3a8ff-2259-4322-a55d-32ae41c06f5c)
+
+## Quaternion vs Euler angles (rotation to target)
+Compared with other approaches (e.g., Euler angles, Cardan angles), the quaternion does not suffer from singularities when defining rigid body orientation, and therefore avoids the gimbal lock.
+![Unity_9zUFwqI6s3](https://github.com/CreatNatoy/Visualizing-Equations-Math-for-Game-Devs/assets/76531899/7f4a2ce3-c857-4140-aea0-e93e6901cf92)
+
